@@ -27,7 +27,7 @@ The model was trained using the YOLOv8Nano architecture, which is a lightweight 
 - After training my YOLOv8Nano model, I quantized it to reduce its size and make it more suitable for deployment on resource-constrained devices. TensorFlow Lite (TFLite) provides tools to convert your trained model to a TFLite-compatible format. after quantization the model size got down to 5.3 mb
 
 ### Model Deployment with OpenCV
-I deployed my quantized YOLOv8Nano model for fire detection on my laptop using OpenCV. Here's an overview of the deployment process:
+I deployed my quantized trained model for fire detection on my laptop using OpenCV. Here's an overview of the deployment process:
 - Model Loading: I loaded the quantized YOLOv8Nano model using the Ultralytics library and moved it to the available device (CPU or GPU).
 
 - Video Stream Processing: I captured frames from a video stream using OpenCV and passed each frame through the model for inference.
@@ -37,7 +37,7 @@ I deployed my quantized YOLOv8Nano model for fire detection on my laptop using O
 ## Future Plans
 In future iterations, I plan to enhance the accuracy and reliability of the fire detection system by adding another layer to the workflow. Here's an outline of the proposed improvement:
 
-- Drone-Based Detection: The drone will continue to detect fire in its vicinity using the deployed YOLOv8Nano model.
+- Drone-Based Detection: The drone will continue to detect fire in its vicinity using the deployed trained model.
 
 - Sending Frames to Central Hub: Upon detecting a fire, the drone will send the corresponding frame to a central hub for further analysis.
 
