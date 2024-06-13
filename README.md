@@ -5,9 +5,6 @@ This repository contains the code for training a fire detection model using YOLO
 ## Training
 The model was trained using the YOLOv8Nano architecture, which is a lightweight version of YOLOv8 designed for resource-constrained environments. The Adam optimizer was chosen for its efficiency in handling large datasets, and a learning rate of 0.002 was selected based on empirical testing to achieve optimal performance. The batch size of 25 was chosen to balance between training speed and memory usage, given the large size of the dataset. Training was conducted for 50 epochs to ensure the model converged to a stable state
 
-## Evaluation
-The trained model was evaluated using standard metrics such as precision, recall, and mean Average Precision (mAP) at different Intersection over Union (IoU) thresholds. The model demonstrated strong performance, achieving a precision of 0.577, a recall of 0.426, an mAP50 of 0.495, and an mAP50-95 of 0.224, indicating its effectiveness in detecting fire objects.
-
 ## Model Summary
 ### Model Architecture: YOLOv8Nano
 - Optimizer: Adam
@@ -25,3 +22,6 @@ The trained model was evaluated using standard metrics such as precision, recall
 - Dataset size was relatively low i have plans to use bigger datset for improving the model
 - Bounding boxes were inaccurately marked
 - Loss for bounding boxes reached 1.2 after 50 epochs, indicating difficulty in convergence 
+
+### Model Quantization with TensorFlow Lite
+After training my YOLOv8Nano model, I quantized it to reduce its size and make it more suitable for deployment on resource-constrained devices. TensorFlow Lite (TFLite) provides tools to convert your trained model to a TFLite-compatible format. after quantization the model size got down to 5.3 mb
