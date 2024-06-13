@@ -9,19 +9,19 @@ The model was trained using the YOLOv8Nano architecture, which is a lightweight 
 The trained model was evaluated using standard metrics such as precision, recall, and mean Average Precision (mAP) at different Intersection over Union (IoU) thresholds. The model demonstrated strong performance, achieving a precision of 0.577, a recall of 0.426, an mAP50 of 0.495, and an mAP50-95 of 0.224, indicating its effectiveness in detecting fire objects.
 
 ## Model Summary
-Model Architecture: YOLOv8Nano
-Optimizer: Adam
-Learning Rate: 0.002
-Batch Size: 25
-Epochs: 50
-Dataset: Custom dataset containing images of fire scenarios
-Annotations: Bounding box annotations around fire objects
-Metrics:
-Precision (B): 0.577
-Recall (B): 0.426
-mAP50 (B): 0.495
-mAP50-95 (B): 0.224
-Challenges:
-Dataset size was relatively low i have plans to use bigger datset for improving the model
-Bounding boxes were inaccurately marked
-Loss for bounding boxes reached 1.2 after 50 epochs, indicating difficulty in convergence 
+### Model Architecture: YOLOv8Nano
+- Optimizer: Adam
+- Learning Rate: 0.002
+- Batch Size: 25
+- Epochs: 50
+- Dataset: Custom dataset containing images of fire scenarios
+- Annotations: Bounding box annotations around fire objects
+### Metrics:
+- Precision (B): 0.577
+- Recall (B): 0.426
+- mAP50 (B): 0.495
+- mAP50-95 (B): 0.224
+### Challenges:
+- Dataset size was relatively low i have plans to use bigger datset for improving the model
+- Bounding boxes were inaccurately marked
+- Loss for bounding boxes reached 1.2 after 50 epochs, indicating difficulty in convergence 
