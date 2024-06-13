@@ -24,7 +24,7 @@ The model was trained using the YOLOv8Nano architecture, which is a lightweight 
 - Loss for bounding boxes reached 1.2 after 50 epochs, indicating difficulty in convergence 
 
 ### Model Quantization with TensorFlow Lite
-After training my YOLOv8Nano model, I quantized it to reduce its size and make it more suitable for deployment on resource-constrained devices. TensorFlow Lite (TFLite) provides tools to convert your trained model to a TFLite-compatible format. after quantization the model size got down to 5.3 mb
+- After training my YOLOv8Nano model, I quantized it to reduce its size and make it more suitable for deployment on resource-constrained devices. TensorFlow Lite (TFLite) provides tools to convert your trained model to a TFLite-compatible format. after quantization the model size got down to 5.3 mb
 
 ### Model Deployment with OpenCV
 I deployed my quantized YOLOv8Nano model for fire detection on my laptop using OpenCV. Here's an overview of the deployment process:
