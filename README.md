@@ -44,3 +44,15 @@ In future iterations, I plan to enhance the accuracy and reliability of the fire
 - Central Hub Processing: At the central hub, a custom-trained ResNet or VGG model will classify the detection as a false alarm or a positive alarm. This step will help reduce false positives and improve the overall accuracy of the system.
 
 - Sending Coordinates and Image: If the detection is classified as a positive alarm, the drone hub will send the coordinates of the fire and the corresponding image frame for further action or alerting authorities.
+
+## Model Showcase
+
+Check out the performance of the fire detection model in action:
+
+ [![Fire Detection Model Showcase](https://img.youtube.com/vi/KP4mdSREHkY/0.jpg)](https://www.youtube.com/watch?v=KP4mdSREHkY)
+### Detection using live camera 
+ [![Fire Detection Model Showcase](https://img.youtube.com/vi/7rEz7-M08Bw/0.jpg)](https://www.youtube.com/watch?v=7rEz7-M08Bw)
+
+
+Click the image above to watch the video demonstration on YouTube.
+
