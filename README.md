@@ -51,6 +51,9 @@ In future iterations, I plan to enhance the accuracy and reliability of the fire
 
 - Sending Coordinates and Image: If the detection is classified as a positive alarm, the drone hub will send the coordinates of the fire and the corresponding image frame for further action or alerting authorities.
 
+- Developing machine learning models that analyze historical fire data, weather patterns, and other relevant factors to predict high-risk areas.
+- Implementing advanced navigation algorithms that enable drones to patrol predefined routes or dynamically adjust their paths based on detected fire signs.
+
 ## Model Showcase
 
 Check out the performance of the fire detection model in action:
