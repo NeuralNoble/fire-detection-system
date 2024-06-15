@@ -1,6 +1,11 @@
+
 # fire-detection
 
 This repository contains the code for training a fire detection model using YOLOv8Nano on a custom dataset. The model is trained with the Adam optimizer, a learning rate of 0.002, and a batch size of 25 to accommodate a large dataset. The training was conducted for 50 epochs to ensure the model learns effectively.
+
+# System Architecture
+<img width="1380" alt="Screenshot 2024-06-16 at 12 31 42 AM" src="https://github.com/NeuralNoble/fire-detection/assets/156664113/855ea922-6ecb-46e4-98b5-f3b0dd1f193f">
+
 
 ## Training
 The model was trained using the YOLOv8Nano architecture, which is a lightweight version of YOLOv8 designed for resource-constrained environments. The Adam optimizer was chosen for its efficiency in handling large datasets, and a learning rate of 0.002 was selected based on empirical testing to achieve optimal performance. The batch size of 25 was chosen to balance between training speed and memory usage, given the large size of the dataset. Training was conducted for 50 epochs to ensure the model converged to a stable state
